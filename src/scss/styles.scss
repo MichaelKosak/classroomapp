@@ -1,3 +1,62 @@
-body{
-  background: orangered;
+body {
+  display: flex;
+  justify-content: center;
+  background-color: black;
 }
+
+.container {
+  background-color: darkgray;
+}
+
+.row .table {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  background-color: black;
+  width: 350px;
+  height: 150px;
+  color: white;
+  text-align: center;
+  margin: 25px 5px;
+}
+
+.jerry {
+  width: 200px;
+  height: 100px;
+  margin: 50px 25px 25px 25px;
+  transform: rotate(-15deg);
+  
+}
+
+.first-row {
+  margin-top: 80px;
+}
+
+.container-2 {
+  background-color: green;
+}
+
+.col {
+  border: 1px solid white;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+input {
+  border-radius: 5px;
+  width: 120px;
+}
+
+.neuefische {
+  width: 100%;
+  align-self: center;
+  margin-top: 1rem;
+  
+}
+
+
+
