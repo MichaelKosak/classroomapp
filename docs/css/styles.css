@@ -6281,28 +6281,57 @@ body {
   align-content: start; }
 
 .table {
-  background-color: black;
+  background-color: white;
   width: 8.375rem;
   height: 9.375rem;
-  color: white;
+  color: black;
   text-align: center;
   margin: 0.125rem 0.3125rem; }
 
 .first-row {
   height: 100%;
-  align-self: flex-end;
-  margin-left: 3rem; }
+  align-self: flex-end; }
 
 .col {
   padding: 0.3125rem;
   display: flex;
   flex-direction: column; }
 
-input {
-  border-radius: 5px;
-  width: 120px; }
-
 .neuefische {
   width: 100%;
   align-self: center;
   margin-top: 1rem; }
+
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+  align-items: start; }
+
+.status1 {
+  background: yellow; }
+
+.status2 {
+  background: red; }
+
+.status3 {
+  background: orange; }
+
+.status4 {
+  background: green; }
+
+input[type="radio"] {
+  transform: scale(0.5); }
+
+label {
+  transform: scale(0.8); }
+
+.margin-0 {
+  margin-bottom: -10px; }
+
+input.statusButton1 {
+  transform: translate(-px) scale(0.5); }
+
+input.statusButton2 {
+  transform: translate(-1px) scale(0.5); }
