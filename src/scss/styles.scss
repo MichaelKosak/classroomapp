@@ -1,48 +1,41 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-
 body {
   display: flex;
   justify-content: center;
-  background-color: orange;
+  background-color: black;
+  height: 100vh;
+  
 }
 
 .container {
   background-color: darkgray;
+
 }
 
 .row .table {
   display: flex;
-  justify-content: center;
+  align-content: start;
 }
 
 .table {
   background-color: black;
-  width: 350px;
-  height: 150px;
+  width: 8.375rem;
+  height: 9.375rem;
   color: white;
   text-align: center;
-  margin: 25px 5px;
+  margin: 0.125rem 0.3125rem;
 }
 
-.jerry {
-  width: 200px;
-  height: 100px;
-  margin: 50px 25px 25px 25px;
-  transform: rotate(-15deg);
-  
-}
 
 .first-row {
-  margin-top: 80px;
-}
-
-.container-2 {
-  background-color: green;
+  height: 100%;
+  align-self: flex-end;
+  margin-left: 3rem;
 }
 
 .col {
-  border: 1px solid white;
-  padding: 5px;
+//  border: 0.625rem solid white;
+  padding: 0.3125rem;
   display: flex;
   flex-direction: column;
   
