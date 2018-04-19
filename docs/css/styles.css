@@ -6270,42 +6270,31 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   display: flex;
   justify-content: center;
-  background-color: orange;
-  align-items: center; }
-
-.header {
-  border: 1px solid black; }
+  background-color: black;
+  height: 100vh; }
 
 .container {
   background-color: darkgray; }
 
 .row .table {
   display: flex;
-  justify-content: center; }
+  align-content: start; }
 
 .table {
   background-color: black;
-  width: 350px;
-  height: 150px;
+  width: 8.375rem;
+  height: 9.375rem;
   color: white;
   text-align: center;
-  margin: 25px 5px; }
-
-.jerry {
-  width: 200px;
-  height: 100px;
-  margin: 50px 25px 25px 25px;
-  transform: rotate(-15deg); }
+  margin: 0.125rem 0.3125rem; }
 
 .first-row {
-  margin-top: 80px; }
-
-.container-2 {
-  background-color: green; }
+  height: 100%;
+  align-self: flex-end;
+  margin-left: 3rem; }
 
 .col {
-  border: 1px solid white;
-  padding: 5px;
+  padding: 0.3125rem;
   display: flex;
   flex-direction: column; }
 
