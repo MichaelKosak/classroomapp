@@ -1,3 +1,14 @@
-.test {
-  color: green;
+footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
+  
+
 }
+
+.impressum {
+  background: $darkblue;
+  color: white;
+}
+
