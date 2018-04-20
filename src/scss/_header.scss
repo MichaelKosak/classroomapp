@@ -1,5 +1,99 @@
 
-header {
- font-size: 100px;
+h1 {
+ font-size: 30px;
+ margin: 20px;
+ padding: 10px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.bubble1, .bubble2, .bubble3, .bubble4, .bubble5 {
+  background: deepskyblue;
+  box-shadow: 1px 1px 5px whitesmoke;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  animation-fill-mode: forwards;
+  margin: 15px;
+}
+
+.bubble1 {
+   animation: animated-bubble1 20s infinite;
+   transform:  translateY(60px) translateX(60px);
+}
+
+.bubble2 {
+   animation: animated-bubble2 15s infinite;
+   transform:  translateY(80px) translateX(60px);
+}
+
+.bubble3 {
+  animation: animated-bubble3 12s infinite;
+  transform:  translateY(70px) translateX(60px);
+}
+
+.bubble4 {
+  animation: animated-bubble4 18s infinite;
+  transform:  translateY(70px) translateX(60px);
+}
+
+.bubble5 {
+  animation: animated-bubble5 10s infinite;
+  transform:  translateY(60px) translateX(60px);
+}
+
+@keyframes animated-bubble1 {
+  99% {
+    transform: translateY(-250px);
+  }
+  100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes animated-bubble2 { 
+  99% {
+    transform: translateY(-250px);
+  }
+  100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes animated-bubble3 {
+  99% {
+    transform: translateY(-250px);
+  }
+  100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes animated-bubble4 { 
+  99% {
+    transform: translateY(-250px);
+  }
+  100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes animated-bubble5 {
+  99% {
+    transform: translateY(-250px);
+  }
+  100% {
+      opacity: 0;
+    }
+  }
+
+  .icon {
+    border: 5px solid grey;
+    border-radius: 50%;
+    background: grey;
+    color: rgb(255, 165, 0);
+    font-weight: bold;
+    margin: 50px 10px;
+    padding: 12px;
+    font-size: 35px;
+  }
 
