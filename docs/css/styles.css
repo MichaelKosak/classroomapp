@@ -6350,22 +6350,25 @@ h1 {
   text-shadow: 1px 1px 1px white;
   box-shadow: 20px 1px 2px #ed6544; }
 
+footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start; }
+
+.impressum {
+  background: darkblue;
+  color: white; }
+
 body {
   background-color: #20324f;
   height: 100vh; }
 
 .container {
   background-color: none;
-  height: 87vh;
   width: 100%;
+  height: 100%;
   border-radius: 10px; }
-
-.row .table {
-  display: flex;
-  align-content: start; }
-
-.name {
-  margin-bottom: 40px; }
 
 .table {
   padding: 5px;
@@ -6379,6 +6382,13 @@ body {
   text-align: center;
   margin: 0.125rem 0.3125rem; }
 
+.row .table {
+  display: flex;
+  align-content: start; }
+
+.name {
+  margin-bottom: 40px; }
+
 .anordnung {
   height: 100%;
   display: flex;
@@ -6390,6 +6400,22 @@ body {
   align-items: center;
   width: 50%;
   padding: 4px; }
+
+.wip, .jerry {
+  border-bottom: 1px solid black; }
+
+.done, .jerry {
+  border-left: 1px solid black; }
+
+label {
+  font-weight: bold;
+  height: 10px;
+  text-shadow: 1px 1px rgba(111, 110, 200, 0.5); }
+
+label:hover {
+  text-shadow: 1px 1px rgba(63, 60, 242, 0.5);
+  color: aqua;
+  transition: 0.2s; }
 
 .first-row {
   height: 100%;
@@ -6406,32 +6432,16 @@ body {
   margin-top: 1rem; }
 
 .status1 {
-  background: yellow; }
+  background: #d8bc49; }
 
 .status2 {
-  background: red; }
+  background: #bd3926; }
 
 .status3 {
-  background: orange; }
+  background: #da732f; }
 
 .status4 {
-  background: green; }
+  background: #657322; }
 
 input[type="radio"] {
   display: none; }
-
-label {
-  font-weight: bold;
-  height: 10px;
-  text-shadow: 1px 1px rgba(111, 110, 200, 0.5); }
-
-label:hover {
-  text-shadow: 1px 1px rgba(63, 60, 242, 0.5);
-  color: aqua;
-  transition: 0.2s; }
-
-.wip, .jerry {
-  border-bottom: 1px solid black; }
-
-.done, .jerry {
-  border-left: 1px solid black; }
