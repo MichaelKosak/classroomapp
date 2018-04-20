@@ -6357,7 +6357,6 @@ footer {
   justify-content: start; }
 
 .impressum {
-  background: darkblue;
   color: white; }
 
 body {
@@ -6408,6 +6407,7 @@ body {
   border-left: 1px solid black; }
 
 label {
+  cursor: pointer;
   font-weight: bold;
   height: 10px;
   text-shadow: 1px 1px rgba(111, 110, 200, 0.5); }
