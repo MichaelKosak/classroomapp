@@ -6342,6 +6342,16 @@ h1 {
   padding: 12px;
   font-size: 35px; }
 
+footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: start; }
+
+.impressum {
+  background: darkblue;
+  color: white; }
+
 body {
   background-color: #eff2f7;
   height: 100vh; }
