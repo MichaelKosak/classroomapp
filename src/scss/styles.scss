@@ -1,8 +1,12 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import 'header';
 
+$orange: rgba(237, 101, 68, 1);
+$darkblue: rgba(32, 50, 79, 1);
+
+
 body {
-  background-color: rgb(239, 242, 247);
+  background-color: $darkblue;
   height: 100vh;
 }
 
@@ -17,8 +21,6 @@ body {
   display: flex;
   align-content: start;
 }
-
-
 
 .name{
   margin-bottom: 40px;

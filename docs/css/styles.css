@@ -6271,7 +6271,9 @@ h1 {
   font-size: 30px;
   margin: 20px;
   padding: 10px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 2px #ed6544; }
 
 .bubble1, .bubble2, .bubble3, .bubble4, .bubble5 {
   background: deepskyblue;
@@ -6333,17 +6335,23 @@ h1 {
     opacity: 0; } }
 
 .icon {
-  border: 5px solid grey;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 10px 0 10px 12px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   background: grey;
-  color: orange;
+  color: #ed6544;
   font-weight: bold;
-  margin: 50px 10px;
-  padding: 12px;
-  font-size: 35px; }
+  padding: 10px;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px white;
+  box-shadow: 20px 1px 2px #ed6544; }
 
 body {
-  background-color: #eff2f7;
+  background-color: #20324f;
   height: 100vh; }
 
 .container {
