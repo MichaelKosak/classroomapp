@@ -6349,7 +6349,7 @@ body {
 .container {
   background-color: none;
   height: 87vh;
-  width: 120%;
+  width: 100%;
   border-radius: 10px; }
 
 .row .table {
