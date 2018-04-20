@@ -1,7 +1,7 @@
-const tables = document.querySelectorAll(".flexbox");
+const tables = document.querySelectorAll(".table");
 
 tables.forEach(table => {
-  console.log(table);
+
   const statusButton1 = table.querySelector(".statusButton1");
   statusButton1.addEventListener("click", event => {
     table.classList.remove("status2", "status3", "status4");

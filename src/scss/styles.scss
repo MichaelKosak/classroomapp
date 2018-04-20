@@ -2,14 +2,16 @@
 @import 'header';
 
 body {
-  display: flex;
-  justify-content: center;
-  background-color: black;
+  background-color: rgb(239, 242, 247);
   height: 100vh;
 }
 
 .container {
-  background-color: darkgray;
+  margin-top:2vh;
+  background-color: none;
+  height: 87vh;
+  width:120%;
+  border-radius: 10px;
 }
 
 .row .table {
@@ -17,13 +19,34 @@ body {
   align-content: start;
 }
 
-.table {
-  background-color: white;
+
+
+.name{
+  margin-bottom: 40px;
+}
+.table{
+  padding:5px;
+  flex-direction:column;
+  border: 1px solid #444;;
+  background-color: #b3ccdf;
+  border-radius:5px;
   width: 8.375rem;
-  height: 9.375rem;
+  height: 10.375rem;
   color: black;
   text-align: center;
   margin: 0.125rem 0.3125rem;
+}
+.anordnung{
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.hh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 4px;
 }
 
 .first-row {
@@ -43,13 +66,7 @@ body {
   margin-top: 1rem;  
 }
 
-.flexbox {
-  display: flex;
-  flex-direction: column; 
-  width: 100%;
-  padding-left: 10px;
-  align-items: start; 
-}
+
 
 .status1 {
   background: yellow;
@@ -68,21 +85,23 @@ body {
 }
 
 input[type="radio"]{
-  transform: scale(0.5); 
+  display: none;
+}
+label{
+  font-weight: bold;
+  height: 10px;
+  text-shadow: 1px 1px rgba(111,110,200, 0.5);
+}
+label:hover{
+  text-shadow: 1px 1px rgba(63, 60, 242, 0.5);
+  color: aqua;
+  transition: 0.2s;
+}
+.wip, .jerry{
+  border-bottom: 1px solid black;
+}
+.done, .jerry{
+  border-left: 1px solid black;
 }
 
-label {
-  transform: scale(0.8); 
-}
 
-.margin-0 {
-  margin-bottom:-10px; 
-}
-
-input.statusButton1 {
-  transform: translate(-px) scale(0.5);
-}
-
-input.statusButton2 {
-  transform: translate(-1px) scale(0.5);
-}
