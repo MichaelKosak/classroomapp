@@ -1,15 +1,18 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import 'header';
 
+$darkblue: #1F324E;
+$darkgrey: #535E6E;
+$orange: #ED6544;
+
 body {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: $darkgrey;
   height: 100vh;
 }
 
 .container {
-  background-color: darkgray;
 }
 
 .row .table {

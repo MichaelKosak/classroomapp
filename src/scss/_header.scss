@@ -1,5 +1,24 @@
+$darkblue: #1F324E;
+$darkgrey: #535E6E;
+$orange: #ED6544;
+
 
 header {
  font-size: 100px;
+ background-color: $darkblue;
 }
 
+.name{
+  align-items: center;
+  justify-content: center;
+}
+
+header h1{
+text-align: center;
+color: white;
+text-shadow: 2px 2px 5px $orange;
+}
+
+span{
+  font-size: 0.2em;
+}
