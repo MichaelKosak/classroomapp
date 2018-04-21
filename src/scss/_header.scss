@@ -1,5 +1,6 @@
 $orange: rgba(237, 101, 68, 1);
 $darkblue: rgba(32, 50, 79, 0.2);
+$deepskyblue: deepskyblue;
 
 
 h1 {
@@ -12,7 +13,7 @@ h1 {
 }
 
 .bubble1, .bubble2, .bubble3, .bubble4, .bubble5 {
-  background: deepskyblue;
+  background: $deepskyblue;
   box-shadow: 1px 1px 5px whitesmoke;
   width: 15px;
   height: 15px;
