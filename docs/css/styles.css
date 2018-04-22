@@ -6351,6 +6351,37 @@ h1 {
   box-shadow: 1.25rem 0.0625rem 0.125rem #ed6544;
   font-family: 'Righteous', cursive; }
 
+.door {
+  height: 75px;
+  width: 150px;
+  margin: 20px;
+  border-radius: 8em; }
+
+.green {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #42f542;
+  font-size: 18px;
+  font-weight: bold; }
+
+.red {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f40808;
+  font-size: 18px;
+  font-weight: bold; }
+
+.green, .red {
+  cursor: pointer; }
+
+.green:after {
+  content: "Door"; }
+
+.red:after {
+  content: "Open the Door!"; }
+
 footer {
   padding: 0.625rem;
   display: flex;
