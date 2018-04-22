@@ -6351,12 +6351,10 @@ h1 {
   box-shadow: 1.25rem 0.0625rem 0.125rem #ed6544;
   font-family: 'Righteous', cursive; }
 
-
-
 .door {
-  height: 75px;
-  width: 150px;
-  margin: 20px;
+  height: 4.6875rem;
+  width: 9.375rem;
+  margin: 1.25rem;
   border-radius: 8em; }
 
 .green {
@@ -6364,7 +6362,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background: #42f542;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold; }
 
 .red {
@@ -6372,7 +6370,7 @@ h1 {
   justify-content: center;
   align-items: center;
   background: #f40808;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: bold; }
 
 .green, .red {
@@ -6383,15 +6381,6 @@ h1 {
 
 .red:after {
   content: "Open the Door!"; }
-
-footer {
-  padding: 0.625rem;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: start; }
-
-.impressum {
-  color: white; }
 
 body {
   background-color: #20324f;
