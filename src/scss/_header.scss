@@ -4,52 +4,52 @@ $deepskyblue: deepskyblue;
 
 
 h1 {
- font-size: 40px;
- margin: 20px;
- padding: 10px;
+ font-size: 2.5rem;
+ margin: 1.25rem;
+ padding: 0.625rem;
  font-family: 'Righteous', cursive;
  color: white;
- text-shadow: 2px 2px 2px $orange;
+ text-shadow: 0.125rem 0.125rem 0.125rem $orange;
 }
 
 .bubble1, .bubble2, .bubble3, .bubble4, .bubble5 {
   background: $deepskyblue;
-  box-shadow: 1px 1px 5px whitesmoke;
-  width: 15px;
-  height: 15px;
+  box-shadow: 0.0625rem 0.0625rem 0.3125rem whitesmoke;
+  width: 0.9275rem;
+  height: 0.9275rem;
   border-radius: 50%;
   animation-fill-mode: forwards;
-  margin: 15px;
+  margin: 0.9275rem;
 }
 
 .bubble1 {
    animation: animated-bubble1 20s infinite;
-   transform:  translateY(60px) translateX(60px);
+   transform:  translateY(3.75rem) translateX(3.75rem);
 }
 
 .bubble2 {
    animation: animated-bubble2 15s infinite;
-   transform:  translateY(80px) translateX(60px);
+   transform:  translateY(80px) translateX(3.75rem);
 }
 
 .bubble3 {
   animation: animated-bubble3 12s infinite;
-  transform:  translateY(70px) translateX(60px);
+  transform:  translateY(70px) translateX(3.75rem);
 }
 
 .bubble4 {
   animation: animated-bubble4 18s infinite;
-  transform:  translateY(70px) translateX(60px);
+  transform:  translateY(70px) translateX(3.75rem);
 }
 
 .bubble5 {
   animation: animated-bubble5 10s infinite;
-  transform:  translateY(60px) translateX(60px);
+  transform:  translateY(3.75rem) translateX(3.75rem);
 }
 
 @keyframes animated-bubble1 {
   99% {
-    transform: translateY(-250px);
+    transform: translateY(-15.625rem);
   }
   100% {
       opacity: 0;
@@ -58,7 +58,7 @@ h1 {
 
   @keyframes animated-bubble2 { 
   99% {
-    transform: translateY(-250px);
+    transform: translateY(-15.625rem);
   }
   100% {
       opacity: 0;
@@ -67,7 +67,7 @@ h1 {
 
   @keyframes animated-bubble3 {
   99% {
-    transform: translateY(-250px);
+    transform: translateY(-15.625rem);
   }
   100% {
       opacity: 0;
@@ -76,7 +76,7 @@ h1 {
 
   @keyframes animated-bubble4 { 
   99% {
-    transform: translateY(-250px);
+    transform: translateY(-15.625rem);
   }
   100% {
       opacity: 0;
@@ -85,7 +85,7 @@ h1 {
 
   @keyframes animated-bubble5 {
   99% {
-    transform: translateY(-250px);
+    transform: translateY(-15.625rem);
   }
   100% {
       opacity: 0;
@@ -96,16 +96,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: 10px 0 10px 12px;
-    width: 100px;
-    height: 100px;
+    margin: 0.625rem 0 0.625rem 0.75rem;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 50%;
     background: grey;
     color: $orange;
     font-weight: bold;
-    padding: 25px;
-    font-size: 30px;
-    text-shadow: 1px 1px 1px white;
-    box-shadow: 20px 1px 2px $orange;
+    padding: 1.5625rem;
+    font-size: 1,875rem;
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem white;
+    box-shadow: 1.25rem 0.0625rem 0.125rem $orange;
     font-family: 'Righteous', cursive;
   }
