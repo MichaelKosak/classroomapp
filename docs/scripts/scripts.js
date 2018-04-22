@@ -26,3 +26,10 @@ tables.forEach(table => {
     table.classList.toggle("status4");
   });
 });
+
+const door = document.querySelector('.door');
+
+door.addEventListener('click', event =>{
+door.classList.toggle('red')
+ door.classList.toggle('green')
+})
