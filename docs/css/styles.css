@@ -6351,15 +6351,6 @@ h1 {
   box-shadow: 1.25rem 0.0625rem 0.125rem #ed6544;
   font-family: 'Righteous', cursive; }
 
-footer {
-  padding: 0.625rem;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: start; }
-
-.impressum {
-  color: white; }
-
 body {
   background-color: #20324f;
   height: 100vh; }
@@ -6398,7 +6389,7 @@ body {
   display: flex;
   flex-flow: row wrap; }
 
-.hh {
+.labelbox {
   display: flex;
   justify-content: center;
   align-items: center;

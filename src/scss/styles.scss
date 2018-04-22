@@ -5,6 +5,8 @@
 $orange: rgba(237, 101, 68, 1);
 $darkblue: rgba(32, 50, 79, 1);
 $deepskyblue: deepskyblue;
+$lightblue: #b3ccdf;
+$darkgrey: #444;
 
 
 body {
@@ -19,11 +21,11 @@ body {
   border-radius: 0.625rem;
 }
 
-.table{
+.table {
   padding:0.3125rem;
   flex-direction:column;
-  border: 0.0625rem solid #444;;
-  background-color: #b3ccdf;
+  border: 0.0625rem solid $darkgrey;
+  background-color: $lightblue;
   border-radius:0.3125rem;
   width: 8.375rem;
   height: 9.375rem;
@@ -37,7 +39,7 @@ body {
   align-content: start;
 }
 
-.name{
+.name {
   margin-top:0.625rem;
   margin-top:0.625rem;
   margin-bottom: 1.875rem;
@@ -45,13 +47,13 @@ body {
   text-shadow: 0.0625rem 0.0625rem 2px $orange;
 }
 
-.anordnung{
+.anordnung {
   height: 100%;
   display: flex;
   flex-flow: row wrap;
 }
 
-.hh{
+.labelbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,15 +61,15 @@ body {
   padding: 0.25rem;
 }
 
-.wip, .jerry{
+.wip, .jerry {
   border-bottom: 0.0625rem solid black;
 }
 
-.done, .jerry{
+.done, .jerry {
   border-left: 0.0625rem solid black;
 }
 
-label{
+label {
   cursor: pointer;
   font-weight: bold;
   height: 0.625rem;
@@ -75,7 +77,7 @@ label{
   text-shadow: 0.0625rem 0.0625rem rgba(111,110,200, 0.5);
 }
 
-label:hover{
+label:hover {
   text-shadow: 0.0625rem 0.0625rem rgba(63, 60, 242, 0.5);
   color: $deepskyblue;
   transition: 0.2s;
