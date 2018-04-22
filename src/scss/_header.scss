@@ -109,3 +109,44 @@ h1 {
     box-shadow: 1.25rem 0.0625rem 0.125rem $orange;
     font-family: 'Righteous', cursive;
   }
+
+
+  .door{
+    height: 75px;
+    width: 150px;
+    margin: 20px;
+    border-radius: 8em;
+  }
+  .green{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(66, 245, 66);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(244, 8, 8);
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .green, .red{
+    cursor:pointer;
+  }
+  
+  .green:after
+    {
+      content:	"Door";
+    }
+  .red:after
+    {
+      content:	"Open the Door!";
+    }
+  
+  
+  
+  
