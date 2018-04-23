@@ -6268,7 +6268,7 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   margin: 1.25rem;
   padding: 0.625rem;
   font-family: 'Righteous', cursive;
@@ -6380,7 +6380,7 @@ h1 {
   content: "Door"; }
 
 .red:after {
-  content: "Open the Door!"; }
+  content: "Open the Door please!"; }
 
 body {
   background-color: #20324f;
