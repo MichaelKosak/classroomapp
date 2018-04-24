@@ -31,5 +31,5 @@ const door = document.querySelector('.door');
 
 door.addEventListener('click', event =>{
 door.classList.toggle('red')
- door.classList.toggle('green')
+door.classList.toggle('green')
 })

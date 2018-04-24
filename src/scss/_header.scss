@@ -110,13 +110,13 @@ h1 {
     font-family: 'Righteous', cursive;
   }
 
-
   .door {
     height: 4.6875rem;
     width: 9.375rem;
     margin: 1.25rem;
     border-radius: 8em;
   }
+
   .green {
     display: flex;
     justify-content: center;
@@ -125,6 +125,7 @@ h1 {
     font-size: 1.125rem;
     font-weight: bold;
   }
+
   .red {
     display: flex;
     justify-content: center;
@@ -141,6 +142,7 @@ h1 {
   .green:after {
       content:	"Door";
   }
+  
   .red:after {
       content:	"Open the Door please!";
   }
