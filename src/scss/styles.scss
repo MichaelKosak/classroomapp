@@ -18,7 +18,7 @@ html {
 
  
 //small screen sizes
-@media (max-width: 600px) {
+@media (max-width: 320px) {
     .mobile-only {
         display:flex !important;
         flex-direction: column;
