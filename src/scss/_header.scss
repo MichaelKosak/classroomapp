@@ -4,7 +4,7 @@ $deepskyblue: deepskyblue;
 
 
 h1 {
- font-size: 2.5rem;
+ font-size: 2.1rem;
  margin: 1.25rem;
  padding: 0.625rem;
  font-family: 'Righteous', cursive;
@@ -135,14 +135,14 @@ h1 {
   }
   
   .green, .red {
-    cursor:pointer;
+    cursor: pointer;
   }
   
   .green:after {
       content:	"Door";
   }
   .red:after {
-      content:	"Open the Door!";
+      content:	"Open the Door please!";
   }
   
   
