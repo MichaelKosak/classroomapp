@@ -6450,7 +6450,7 @@ body {
   width: 50%;
   padding: 0.25rem; }
 
-.wip, .jerry {
+.wip .jerry {
   border-bottom: 0.0625rem solid black; }
 
 .done, .jerry {
